@@ -1,0 +1,242 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+.user_name {
+    font-size: 14px;
+}
+.box {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px 25px;
+    text-align: left;
+    display: block;
+    min-height: 112px;
+    max-width:278px;
+    margin: 7px;
+    background-color: #add8e6;
+}
+.row_custom
+{
+    margin: 8px 0 0 0 !important;
+    padding-left:100px; 
+}
+.box-icon {
+    background-color: #57a544;
+    border-radius: 50%;
+    display: table;
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: -61px;
+}
+.box-icon span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.info h4 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.info > p {
+    color: #717171;
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: justify;
+}
+.info > a {
+    background-color: #03a9f4;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.info > a:hover {
+    background-color: #0288d1;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.container.boxes {
+	padding-top: 159px;
+}
+
+.row.content {
+    padding-top: 22px;
+}
+
+.row.content_frm {
+    padding: 62px 0px;
+}
+.fa.fa-plus-circle {
+    padding: 0px 7px;
+}
+.btn-primary {
+    font-weight: bold!important;
+}
+.last_div {
+    text-align: center;
+}
+.text-center.box_title {
+    color: #285f8e!important;
+}
+.box_title i {
+    padding: 0px 16px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #28698e;
+  color: white;
+  text-align: center;
+  padding: 14px;
+}
+.odd {
+
+    background-color: #add8e6 !important;
+
+}
+.even{
+
+    background-color: #f5f5f5 !important;
+
+}
+.paginate_button {
+    background-color: #28698e;
+
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    color: #fff!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active{
+       background-color: #2b2b2b;
+       color:#fff; 
+}
+input[type="search"] {
+    margin-bottom: 19px;
+}
+div#example_paginate {
+    margin-top: 20px;
+}
+.info_text {
+    color: #285f8e !important;
+}
+
+#edituser {
+    background-color: #add8e6;
+    padding-right: 20px;
+}
+input#saveuser {
+    margin-bottom: 16px;
+}
+.panel-default > .panel-heading {
+    color: #000!important;
+    background-color: #add8e6!important;
+}
+.tbl_hd {
+    background-color: #28698e;
+    color: #fff;
+}
+.col-md-3.box.fiexd_div:nth-child(2n) {
+
+    background: #feb596;
+
+}
+.row.frst_box {
+    
+    padding-bottom: 55px;
+}
+.col-xs-12.col-md-12.col-lg-12.row_hd {
+    background-color: #0ac282;
+    border-radius: 3px;
+    margin: 57px 0 0px 228px;
+    width: 72%;
+   
+}
+.col-md-3.box.fiexd_div a {
+    text-decoration: none;
+}
+.col-md-3.box.fiexd_div {
+
+    text-align: center;
+    padding: 33px;
+
+}
+.zoom {
+  transition: transform .2s;
+}
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    z-index: 9999;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.icons {
+
+    font-size: 71px!important;
+
+}
+.row_hd h3 {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+    margin-bottom: 19px!important;
+}
+.row.second_box {
+    margin-top: 36px;
+     border: 1px solid #dddddd;
+      padding-bottom: 55px;
+}
+.row.content_div {
+    margin-top: 39px;
+}
+.col-md-3.box.fiexd_div.zoom {
+    min-height: 218px !important;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .container.boxes
+    {
+       padding-top:0px;
+       padding-left: 20px;
+    }
+    .footer 
+    {
+        display:none;
+    }
+    .text-center.box_title 
+    {
+        color: #285f8e!important;
+        font-size: 12px;
+    }
+    div#example_wrapper
+    {
+         overflow: scroll;
+    }
+    a.btn.btn-primary.btn-lg.active 
+    {
+         float: right;
+         font-size: 10px;
+    }
+    .box_title i
+    {
+       padding: 0px 0px;
+    }
+    
+
+}
+@media  only screen and (min-width: 768px) and (max-width: 1024px) 
+{
+    .user_data
+    {
+      overflow-x: scroll!important;
+    } 
+    
+}
